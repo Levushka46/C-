@@ -9,9 +9,9 @@ namespace WebApplication1.Models
     {
         public List<User> Users = new List<User>
         {
-            new User {login="nastya", password="nnn123", fullname="Anastasiya", birthday="01/01/2000"},
-            new User {login="alena", password="aaa123", fullname="Alena", birthday="02/02/2001"},
-            new User {login="tanya", password="ttt123", fullname="Tatyana", birthday="01/01/1999"}
+            new User {login="Levushka", password="qwerty", fullname="Lev", birthday="09/08/2000"},
+            new User {login="Lelik", password="qwerty1234", fullname="Elena", birthday="15/06/2000"},
+            new User {login="Olegik", password="qweasdzxc", fullname="Oleg", birthday="28/04/1992"}
         };
         public bool F = false;
         public bool CheckCredentials(string login, string password)
